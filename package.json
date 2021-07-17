@@ -1,0 +1,24 @@
+{
+  "name": "language_guesser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taniya0501/Language_Guesser.git"
+  },
+  "author": "Taniya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taniya0501/Language_Guesser/issues"
+  },
+  "homepage": "https://github.com/Taniya0501/Language_Guesser#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "franc": "^5.0.0",
+    "langs": "^2.0.0"
+  }
+}
