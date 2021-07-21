@@ -15,7 +15,7 @@ const path = require('path');
 // 	const language = langs.where("3",langCode);
 // 	console.log(language.name.green);	
 // }
-
+app.use(express.static('public'));
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({extended: true}));
@@ -33,7 +33,10 @@ app.post('/', (req,res) => {
 	}
 	else{
 		let guess = langs.where("3",langCode);
+		if(guess)
 		res.render('guess', {langCode, guess});
+		else
+		res.render('guess', {langCode, guess: ''});
 		// console.log(guess.name.green);	
 	}
 })

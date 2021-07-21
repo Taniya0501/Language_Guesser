@@ -1,0 +1,65 @@
+body {
+	background: #d9a7c7;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom right, #fffcdc, #d9a7c7);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.inside_form {
+	/* background: url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center; */
+	background: url(/1.jpg) no-repeat center;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+	font-family: 'Open Sans', sans-serif;
+	width: 50%;
+	max-width: 600px;
+	min-height: 600px;
+	margin: 5rem auto;
+	display: flex;
+	border-radius: 0.3rem;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.inside_form form {
+	width: 100%;
+	height: 100%;
+}
+
+.inside_form .overlay {
+	width: 100%;
+	height: 100%;
+	padding: 10%;
+	position: absolute;
+	background-color: rgba(40, 57, 101, .9);
+	border-radius: 0.3rem;
+}
+
+.inside_form form p {
+	margin-bottom: 3rem;
+	font-size: 2.5rem;
+	text-decoration: underline;
+	color: white;
+}
+
+.inside_form form label {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	color: #AAAAAA;
+}
+
+.inside_form .form-control {
+	border-radius: 2rem;
+	padding: 15px 20px;
+	height: 3rem;
+}
+
+.inside_form .button {
+	border-radius: 2rem;
+	width: 100%;
+	border: none;
+	padding: 12px 20px;
+	background: #1161EE;
+}
