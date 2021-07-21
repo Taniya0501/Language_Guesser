@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Taniya0501/Language_Guesser#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
     "franc": "^5.0.0",
     "langs": "^2.0.0"
   }
